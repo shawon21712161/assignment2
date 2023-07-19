@@ -1,4 +1,85 @@
-@media screen and (max-width:425px) {
+        /*tablet view start*/
+    @media screen and (max-width:768px) {
+        .nav-container{
+        
+            flex-direction: column;
+        }
+        
+
+        .items {
+        
+            flex-direction: column;
+        
+        }
+        .items a{
+            flex-direction: column;
+            
+        }
+        .we-are-gamer{
+            display: flex;
+            flex-direction: column;
+        }
+        .banner-container{
+        
+        
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            gap:30px;
+        }
+
+        
+    .game-container{
+        
+        display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        gap: 10px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .play-instantly{
+        
+        margin: 0px auto;
+        display: flex;
+    flex-direction: column;
+    }
+    .game-details{
+    
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+        padding: 20px;
+        display: grid;
+        gap: 20px;
+       grid-template-columns: repeat(4, 1fr);
+        
+    }
+    .footer-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 250px;
+    }
+    .footer-about{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 25px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .footer-info{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-content: center;
+        margin-top: 50px;
+    }
+}
+
+            /*mobile view start*/
+
+    @media screen and (max-width:425px) {
     .nav-container{
     
         flex-direction: column;
@@ -17,7 +98,64 @@
     .banner-container{
     
        
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:30px;
+    }
+
+    .we-are-gamer{
         display: flex;
-     flex-direction: column;
+       flex-direction: column;
+    }
+    
+.game-container{
+    
+    display: grid;
+    grid-template-columns:repeat(1, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    padding: 20px;
+}
+    .play-instantly{
+        
+        margin: 0px auto;
+        display: flex;
+    flex-direction: column;
+    }
+
+    .game-details{
+    
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+        padding: 20px;
+        display: grid;
+        gap: 20px;
+       grid-template-columns: repeat(3, 1fr);
+        
+    }
+    .footer-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+    .footer-about{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 50px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .footer-info{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-content: center;
+        margin-top: 50px;
     }
 }
+
+
