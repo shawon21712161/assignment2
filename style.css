@@ -1,0 +1,343 @@
+*{
+    box-sizing: border-box;
+}
+.nav-container{
+    
+    display: flex;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.name{
+    
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.nav-container img{
+    
+    height: 40px;
+    width: 85px;
+    
+
+}
+.nav-container p{
+  
+    font-size: 45px;
+    margin-left: 10px;
+
+}
+
+.g{
+
+    color:#FF42A5
+}
+.items{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.items a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: #3C354F;
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: space-between;
+}
+.follow{
+    padding: 15px 20px;
+    background-color: rgba(11, 2, 35, 0.10);
+    border-radius: 5px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.fa-brands{
+    margin-right: 5px;
+}
+.banner-container{
+    
+    background-image: url("B8A2-Gamer-Zone-main/images/Group\ 14.png") ;
+    background-repeat: no-repeat;
+    display: flex;
+    max-height: 700px;
+}
+.banner-describtion{
+   
+    width: 50%;
+    min-height: 50px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner-describtion h2{
+     color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    
+
+}
+.banner-describtion h1{
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-describtion li {
+    list-style-type: none;
+    margin-left: 150px;
+    padding-top: 5px;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;    
+}
+
+.banner-describtion-img{
+   /* width: 40%;*/
+    object-fit: cover;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.sign-in{
+    background: #FF42A5;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 15px;
+    padding: 20px 40px;
+    border-radius: 40px;
+    border: none;
+}
+.go-rouge{
+    background: #4EC5F7;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 15px;
+    padding: 20px 40px;
+    border-radius: 40px;
+    border: none;
+}
+.we-are-gamer{
+    display: flex;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: right;
+}
+
+.game-des h2{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: right;
+    margin: auto;
+}
+.game-des p{
+    color: #534C64;
+text-align: right;
+font-size: 20px;
+line-height: 35px; 
+}
+.know-more{
+    padding: 20px 35px;
+    background-color: #F948B2;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.our-purpose span{
+    color: #534C64;
+    font-size: 32px;
+    line-height: 45px;
+}
+.online-games-container{
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+   
+}
+.online-games{
+    text-align: center;
+}
+.online-games h2{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+.online-games h2 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+}
+.online-games p{
+    color: #534C64;
+font-size: 18px;
+font-weight: 500;
+line-height: 25px; 
+}
+
+.game-container{
+    
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 10px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.game-container p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px; 
+}
+
+.play-instantly{
+    
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.play-instanly-title{
+   
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.play-instanly-title h2 {
+    text-align: center;
+    font-size: 48px
+     
+}
+.play-instanly-title h2 span{
+    color: #FF42A5;
+}
+
+.play-instanly-title p{
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+}
+
+.play-instanly-image{
+    width: 50%;
+}
+.positon{
+    position: relative;
+}
+.overlap{
+    position: absolute;
+    left: -10%;
+    bottom: -15%;
+    margin-bottom: 20px;
+}
+
+.game-details{
+    
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+   flex-wrap: wrap;
+    
+}
+.game-details .details-items{
+    font-size: 15px;
+    align-items: center;
+    display: flex; 
+    width: 160px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    justify-content:space-between;
+}
+.game-details .details-items:hover{
+    border: 2px solid rgb(255, 132, 153);
+    color:rgb(255, 132, 153);
+    
+}
+footer{
+    width: 100%;
+    height: 636px;
+    background: #0B0223;
+
+}
+.footer-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.footer-title h2{
+
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+.footer-title h2 span{
+    color: #F948B2;
+}
+.footer-about{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.about-item{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.footer-icon{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 70px;
+}
+.icon{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+.footer-info{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 100px;
+}
+.info{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+footer p {
+    text-align: center;
+    color: white;
+    margin-top: 35px;
+}
